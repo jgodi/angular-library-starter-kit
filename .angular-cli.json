@@ -1,39 +1,36 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "angular-library-starter-kit"
+    "name": "jgodi-library-starter-kit"
   },
-  "apps": [
-    {
-      "root": "example",
-      "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico"
-      ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
-      "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [],
-      "scripts": [],
-      "environmentSource": "config/environment.ts",
-      "environments": {
-        "dev": "config/environment.ts",
-        "prod": "config/environment.prod.ts"
-      }
+  "apps": [{
+    "root": "example",
+    "outDir": "dist",
+    "assets": [
+      "assets",
+      "favicon.ico"
+    ],
+    "index": "index.html",
+    "main": "main.ts",
+    "polyfills": "polyfills.ts",
+    "test": "test.ts",
+    "tsconfig": "tsconfig.app.json",
+    "testTsconfig": "tsconfig.spec.json",
+    "prefix": "app",
+    "styles": [],
+    "scripts": [],
+    "environmentSource": "config/environment.ts",
+    "environments": {
+      "dev": "config/environment.ts",
+      "prod": "config/environment.prod.ts"
     }
-  ],
+  }],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
     }
   },
-  "lint": [
-    {
+  "lint": [{
       "project": "example/tsconfig.app.json",
       "exclude": "**/node_modules/**"
     },

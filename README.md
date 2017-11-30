@@ -1,7 +1,7 @@
 # Angular2+ Library Starter Kit
 
-[![npm Version](https://img.shields.io/npm/v/angular-library-starter-kit.svg)](https://www.npmjs.com/package/angular-library-starter-kit)
-[![Build Status](https://travis-ci.org/zurfyx/angular-library-starter-kit.svg?branch=master)](https://travis-ci.org/zurfyx/angular-library-starter-kit)
+[![npm Version](https://img.shields.io/npm/v/jgodi-angular-library-starter-kit.svg)](https://www.npmjs.com/package/jgodi-angular-library-starter-kit)
+[![Build Status](https://travis-ci.org/jgodi/jgodi-angular-library-starter-kit.svg?branch=master)](https://travis-ci.org/jgodi/jgodi-angular-library-starter-kit)
 
 > Angular2+ Library Starter Kit based on Angular-CLI.
 
@@ -9,13 +9,13 @@
 
 **A NPM library** such as:
 
-[npmjs.com/package/angular-library-starter-kit](https://www.npmjs.com/package/angular-library-starter-kit)
+[npmjs.com/package/jgodi-angular-library-starter-kit](https://www.npmjs.com/package/jgodi-angular-library-starter-kit)
 
 Which can be installed and imported as easy as `npm install your-library-name` and `import { MyModule } from 'your-library-name'`
 
 A **demo page** such as:
 
-[zurfyx.github.io/angular-library-starter-kit](https://zurfyx.github.io/angular-library-starter-kit/)
+[jgodi.github.io/jgodi-angular-library-starter-kit](https://jgodi.github.io/jgodi-angular-library-starter-kit/)
 
 ## Features
 
@@ -29,14 +29,14 @@ A **demo page** such as:
 ## Getting started
 
 ```
-git clone https://github.com/zurfyx/angular-library-start-kit
+git clone https://github.com/jgodi/jgodi-angular-library-start-kit
 npm install
 npm start
 ```
 
 **Write your package metadata**
 
-Make this library yours. Edit `package.json`, `.angular-cli.json` and `.travis.yml` and replace all ocurrences of `angular-library-starter-kit` with `your-module-name` (make sure it doesn't exist on [NPM](http://npmjs.com/) yet).
+Make this library yours. Edit `package.json`, `.angular-cli.json` and `.travis.yml` and replace all ocurrences of `jgodi-angular-library-starter-kit` with `your-module-name` (make sure it doesn't exist on [NPM](http://npmjs.com/) yet).
 
 For the `package.json -> build-gh-pages` make sure to change `zurfyx` with your GitHub name or organization name. It will be used to later deploy your demo page onto GitHub pages.
 
